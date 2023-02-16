@@ -53,6 +53,5 @@ class VKAPI:
         with open('info_foto_files.json', 'a') as f:
             json.dump(self.info, f, ensure_ascii=False, indent=2)
 
-# main.py
-from VKAPI import VKAPI
+
 
